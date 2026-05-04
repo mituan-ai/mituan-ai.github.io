@@ -45,10 +45,7 @@ sections:
     As: "section-f89358aa"
   - block: "collection"
     content:
-      title: "Selected Publications"
-      count: 5
-      sort_by: "Date"
-      order: "desc"
+      title: "Featured Publications"
       filters:
         folders:
           - "publications"
@@ -61,14 +58,17 @@ sections:
     As: "section-5847d5ef"
   - block: "collection"
     content:
-      title: "All Publications"
+      title: "Publications"
       text: ""
       filters:
         folders:
           - "publications"
         exclude_featured: false
-      count: 0
+        featured_only: true
+      count: 5
       sort_by: "Date"
+      archive:
+        enable: true
       order: "desc"
     design:
       view: "citation"
