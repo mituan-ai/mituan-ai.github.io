@@ -2,7 +2,7 @@
 title: "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa"
 authors:
   - Weilan Su
-  - me
+  - youcheng-zong
   - Runda Jia
   - Jian Qin
   - Ming Li
@@ -17,12 +17,13 @@ tags:
   - Medical Imaging
   - Segmentation
   - SAM2
-featured: false
+featured: true
 links:
   - type: doi
     url: https://doi.org/10.1109/jbhi.2025.3628493
 image:
-  caption: ""
+  filename: featured.jpg
+  caption: "Cover image adapted from Wikimedia Commons: Nailfold Capillaries."
   focal_point: ""
   preview_only: false
 projects: []

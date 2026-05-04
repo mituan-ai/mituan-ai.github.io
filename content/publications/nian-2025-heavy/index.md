@@ -2,7 +2,7 @@
 title: "Influence of heavy reduction during solidification process of billets based on 3D reconstruction of dendrites"
 authors:
   - Yi Nian
-  - me
+  - youcheng-zong
   - Chaojie Zhang
   - Xinyu Tang
   - Jiale Li

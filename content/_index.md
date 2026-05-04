@@ -1,13 +1,12 @@
 ---
-title: ''
-summary: ''
-date: 2026-05-04
-type: landing
-
+title: ""
+summary: ""
+date: "2026-05-04"
+type: "landing"
 sections:
-  - block: resume-biography-3
+  - block: "resume-biography-3"
     content:
-      username: me
+      username: "youcheng-zong"
       text: |
         My recent work includes LLM-driven human-AI collaborative decision
         support for metallurgical processes, adaptive temperature trend
@@ -15,89 +14,100 @@ sections:
         for manufacturing, blast furnace iron-tapping state recognition, and
         data-driven analysis of continuous casting and metallurgical processes.
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: "CV"
+        url: "uploads/resume.pdf"
       headings:
-        about: About
-        education: Education
-        interests: Research Interests
+        about: "About"
+        education: "Education"
+        interests: "Research Interests"
     design:
       background:
         gradient_mesh:
           enable: true
       name:
-        size: md
+        size: "md"
       avatar:
-        size: large
-        shape: circle
-
-  - block: markdown
+        size: "large"
+        shape: "circle"
+    ce: "section-a8a3a0ad"
+    As: "section-7668f1bc"
+  - block: "markdown"
     content:
-      title: Research
-      subtitle: ''
+      title: "Research"
+      subtitle: ""
       text: |-
         I work on data-driven and LLM-assisted intelligence for complex
         industrial processes, with a particular focus on metallurgy, process
         decision support, adaptive prediction, and industrial time-series
         modeling.
     design:
-      columns: '1'
-
-  - block: collection
-    id: papers
+      columns: "1"
+    ce: "section-7fbe6595"
+    As: "section-f89358aa"
+  - block: "collection"
     content:
-      title: Featured Publications
+      title: "Featured Publications"
       filters:
         folders:
-          - publications
+          - "publications"
         featured_only: true
     design:
-      view: article-grid
+      view: "article-grid"
       columns: 2
-
-  - block: collection
+    ce: "section-papers"
+    id: "papers"
+    As: "section-5847d5ef"
+  - block: "collection"
     content:
-      title: Publications
-      text: ''
+      title: "Publications"
+      text: ""
       filters:
         folders:
-          - publications
+          - "publications"
         exclude_featured: false
     design:
-      view: citation
-
-  - block: collection
-    id: projects
+      view: "citation"
+    ce: "section-2dca0dee"
+    As: "section-1a3c413c"
+  - block: "collection"
     content:
-      title: Projects
-      text: Project details will be added after the project list is confirmed.
+      title: "Projects"
+      text: "Project details will be added after the project list is confirmed."
       filters:
         folders:
-          - projects
+          - "projects"
     design:
-      view: article-grid
+      view: "article-grid"
       columns: 3
-
-  - block: collection
-    id: news
+    ce: "section-projects"
+    id: "projects"
+    As: "section-38490b7a"
+  - block: "collection"
     content:
-      title: Blog
-      subtitle: ''
-      text: Blog posts will be added later.
-      page_type: blog
+      title: "Blog"
+      subtitle: ""
+      text: "Blog posts will be added later."
+      page_type: "blog"
       count: 6
       filters:
-        author: ''
-        category: ''
-        tag: ''
+        author: ""
+        category: ""
+        tag: ""
         exclude_featured: false
         exclude_future: false
         exclude_past: false
-        publication_type: ''
+        publication_type: ""
       offset: 0
-      order: desc
+      order: "desc"
     design:
-      view: card
+      view: "card"
       spacing:
-        padding: [0, 0, 0, 0]
+        padding:
+          - 0
+          - 0
+          - 0
+          - 0
+    ce: "section-news"
+    id: "news"
+    As: "section-9908f258"
 ---

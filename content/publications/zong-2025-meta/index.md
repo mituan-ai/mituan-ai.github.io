@@ -1,7 +1,7 @@
 ---
 title: "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating"
 authors:
-  - me
+  - youcheng-zong
   - Runda Jia
   - Shuai Wu
   - Liqiang Zhang
@@ -22,7 +22,8 @@ links:
   - type: doi
     url: https://doi.org/10.1016/j.engappai.2025.112750
 image:
-  caption: ""
+  filename: featured.jpg
+  caption: "Cover image adapted from Wikimedia Commons: foundry ladle."
   focal_point: ""
   preview_only: false
 projects: []

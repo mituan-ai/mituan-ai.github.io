@@ -6,7 +6,7 @@ name:
   given: "Youcheng"
   family: "Zong"
   alternate: "宗有成"
-  pronunciation: "Zōng Yǒuchéng"
+  pronunciation: "Yǒuchéng Zōng"
   pronouns: "he/him"
 status:
   icon: "🎓"
@@ -14,7 +14,7 @@ role: "PhD Student in Control Science and Engineering"
 bio: "Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China. His research focuses on large language models for complex industrial processes, industrial time-series modeling, and process industry intelligence."
 affiliations:
   - name: "Northeastern University"
-    url: "https://english.neu.edu.cn/"
+    url: "https://www.neu.edu.cn/"
 links:
   - icon: "hero/at-symbol"
     url: "youchengzong@stumail.neu.edu.cn"
@@ -22,11 +22,6 @@ links:
   - icon: "brands/github"
     url: "https://github.com/mituan-ai"
     label: "GitHub"
-  - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/citations?user=wIODRkYAAAAJ"
-  - icon: "academicons/orcid"
-    url: "https://orcid.org/0009-0008-6795-8412"
-    label: "ORCID"
 interests:
   - "Industrial LLMs"
   - "Intelligent metallurgy"
@@ -60,3 +55,7 @@ languages: []
 awards: []
 postnominals:
   - "M.Eng."
+ids:
+  orcid: "0009-0008-6795-8412"
+  google_scholar: "wIODRkYAAAAJ"
+  scopus: "58522975900"

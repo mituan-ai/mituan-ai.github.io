@@ -1,7 +1,7 @@
 ---
 title: "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier"
 authors:
-  - me
+  - youcheng-zong
   - Shaowei Hu
   - Debo Qin
   - Zixian Wang
@@ -24,7 +24,8 @@ links:
   - type: doi
     url: https://doi.org/10.1109/JSEN.2023.3300123
 image:
-  caption: ""
+  filename: featured.jpg
+  caption: "Cover image adapted from Wikimedia Commons: molten iron from a blast furnace."
   focal_point: ""
   preview_only: false
 projects: []

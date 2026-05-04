@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes"
 authors:
-  - me
+  - youcheng-zong
   - Yi Nian
   - Chaojie Zhang
   - Xinyu Tang
@@ -23,7 +23,8 @@ links:
   - type: doi
     url: https://doi.org/10.1016/j.engappai.2024.109580
 image:
-  caption: ""
+  filename: featured.jpg
+  caption: "Cover image adapted from Wikimedia Commons: hydraulic press."
   focal_point: ""
   preview_only: false
 projects: []

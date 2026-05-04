@@ -1,7 +1,7 @@
 ---
 title: "Judgment of blast furnace iron-tapping status based on data differential processing and dynamic window analysis algorithm"
 authors:
-  - me
+  - youcheng-zong
   - Zixian Wang
   - Xiang Liu
   - Yi Nian
@@ -21,7 +21,7 @@ tags:
   - Blast Furnace
   - Iron-Tapping
   - Dynamic Window Analysis
-featured: true
+featured: false
 links:
   - type: doi
     url: https://doi.org/10.1016/j.pnsc.2023.10.004

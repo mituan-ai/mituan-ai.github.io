@@ -3,7 +3,7 @@ title: "Investigation of the Mechanism of Central Crack Formation During the Sol
 authors:
   - Yi Nian
   - Xinyu Tang
-  - me
+  - youcheng-zong
   - Shaowei Hu
   - Chaojie Zhang
   - Haichuan Wang

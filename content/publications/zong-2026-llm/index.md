@@ -1,7 +1,7 @@
 ---
 title: "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy"
 authors:
-  - me
+  - youcheng-zong
   - Runda Jia
   - Kang Li
   - Dazhan Xue
@@ -23,7 +23,8 @@ links:
   - type: doi
     url: https://doi.org/10.1016/j.neunet.2026.109055
 image:
-  caption: ""
+  filename: featured.jpg
+  caption: "Cover image adapted from Wikimedia Commons: artificial neural network with chip."
   focal_point: ""
   preview_only: false
 projects: []
