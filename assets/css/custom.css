@@ -1,4 +1,4 @@
 select[onchange*="data-theme-pack"] option {
-  color: #ffffff;
-  background: #111827;
+  color: var(--hb-color-header-fg);
+  background: var(--hb-color-header-bg);
 }
