@@ -2,115 +2,75 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Youcheng Zong
+  given: Youcheng
+  family: Zong
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🧠"
+role: PhD Student in Control Science and Engineering
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Youcheng Zong is a PhD student in Control Science and Engineering at
+  Northeastern University, China. His research focuses on industrial LLMs,
+  intelligent metallurgy, process industry intelligence, and industrial
+  time-series analysis for complex industrial processes.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Northeastern University
+    url: https://english.neu.edu.cn/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:youchengzong@stumail.neu.edu.cn
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://github.com/mituan-ai
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=wIODRkYAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0008-6795-8412
+  - icon: academicons/scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=58522975900
+  - icon: academicons/researcherid
+    url: https://www.webofscience.com/wos/author/record/HOH-3812-2023
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Industrial LLMs
+  - Intelligent metallurgy
+  - Process industry intelligence
+  - Industrial time-series analysis
+  - Human-AI collaborative decision support
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD student, Control Science and Engineering
+    institution: Northeastern University
+    start: 2024-09-01
+    end: ''
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      College of Information Science and Engineering.
+  - degree: Bachelor of Engineering in Automation
+    institution: Anhui University of Technology
+    start: 2017-09-01
+    end: 2021-06-30
+    summary: |
+      School of Electrical and Information Engineering.
 
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+experience: []
 
 skills:
-  - name: Technical Skills
+  - name: Research Areas
     items:
-      - label: Python
+      - label: Industrial LLMs
         level: 5
-      - label: Machine Learning
+      - label: Intelligent metallurgy
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+      - label: Industrial time-series analysis
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Process industry intelligence
+        level: 5
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+languages: []
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []

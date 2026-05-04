@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Youcheng Zong"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "PhD Student in Control Science and Engineering"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Youcheng Zong's academic homepage. Research interests include industrial LLMs, intelligent metallurgy, process industry intelligence, and industrial time-series analysis."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -147,7 +146,7 @@ hugoblox:
         - /
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+    contact: "youchengzong@stumail.neu.edu.cn"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -231,7 +230,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: "" # e.g., https://github.com/username/repo
+    url: "https://github.com/mituan-ai/mituan-ai.github.io" # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
