@@ -1,0 +1,4 @@
+select[onchange*="data-theme-pack"] option {
+  color: #ffffff;
+  background: #111827;
+}

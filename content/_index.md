@@ -13,9 +13,6 @@ sections:
         prediction in ladle preheating, random-forest-based pressure prediction
         for manufacturing, blast furnace iron-tapping state recognition, and
         data-driven analysis of continuous casting and metallurgical processes.
-      button:
-        text: "CV"
-        url: "uploads/resume.pdf"
       headings:
         about: "About"
         education: "Education"
@@ -30,6 +27,7 @@ sections:
         size: "large"
         shape: "circle"
     ce: "section-a8a3a0ad"
+    id: "biography"
     As: "section-7668f1bc"
   - block: "markdown"
     content:
@@ -43,31 +41,40 @@ sections:
     design:
       columns: "1"
     ce: "section-7fbe6595"
+    id: "research"
     As: "section-f89358aa"
   - block: "collection"
     content:
-      title: "Featured Publications"
+      title: "Selected Publications"
+      count: 5
+      sort_by: "Date"
+      order: "desc"
       filters:
         folders:
           - "publications"
         featured_only: true
     design:
       view: "article-grid"
-      columns: 2
+      columns: 3
     ce: "section-papers"
     id: "papers"
     As: "section-5847d5ef"
   - block: "collection"
     content:
-      title: "Publications"
+      title: "All Publications"
       text: ""
       filters:
         folders:
           - "publications"
         exclude_featured: false
+      count: 0
+      sort_by: "Date"
+      order: "desc"
     design:
       view: "citation"
+      fill_image: true
     ce: "section-2dca0dee"
+    id: "publications"
     As: "section-1a3c413c"
   - block: "collection"
     content:
