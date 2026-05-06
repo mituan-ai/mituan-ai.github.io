@@ -8,11 +8,10 @@ sections:
     content:
       username: "youcheng-zong"
       text: |
-        My recent work includes LLM-driven human-AI collaborative decision
-        support for metallurgical processes, adaptive temperature trend
-        prediction in ladle preheating, random-forest-based pressure prediction
-        for manufacturing, blast furnace iron-tapping state recognition, and
-        data-driven analysis of continuous casting and metallurgical processes.
+        I am a PhD student in Control Science and Engineering at Northeastern
+        University, China. My research focuses on large language models for
+        complex industrial processes, industrial time-series modeling, and
+        process industry intelligence.
       headings:
         about: "About"
         education: "Education"
@@ -45,7 +44,7 @@ sections:
     As: "section-f89358aa"
   - block: "collection"
     content:
-      title: "Featured Publications"
+      title: "Selected Publications"
       filters:
         folders:
           - "publications"
@@ -64,7 +63,6 @@ sections:
         folders:
           - "publications"
         exclude_featured: false
-        featured_only: true
       count: 5
       sort_by: "Date"
       archive:

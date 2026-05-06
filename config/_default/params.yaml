@@ -3,8 +3,8 @@ hugoblox:
   identity:
     name: Youcheng Zong
     type: person
-    tagline: AI Researcher | Northeastern University
-    description: Youcheng Zong is a PhD Student in Control Science and Engineering.
+    tagline: PhD Student in Control Science and Engineering | Northeastern University
+    description: Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China.
   theme:
     mode: system
     pack: dracula
@@ -26,10 +26,10 @@ hugoblox:
     align: center
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
   footer:
     style: minimal
-    language_switcher: true
+    language_switcher: false
   copyright:
     notice: © {year} {name}
   content:
@@ -41,3 +41,7 @@ hugoblox:
       enable: true
   search:
     enable: true
+    suggestions:
+      - "Industrial LLMs"
+      - "Metallurgy"
+      - "Time Series"

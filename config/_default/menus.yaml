@@ -2,9 +2,9 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
+  - name: Publications
     url: /#papers
     weight: 20
   - name: CV
-    url: /uploads/CV.pdf
+    url: /uploads/cv.pdf
     weight: 30
