@@ -17,7 +17,7 @@ affiliations:
     url: "https://www.neu.edu.cn/"
 links:
   - icon: "hero/at-symbol"
-    url: "youchengzong@stumail.neu.edu.cn"
+    url: "mailto:zongyc@mails.neu.edu.cn"
     label: "Email"
   - icon: "brands/github"
     url: "https://github.com/mituan-ai"

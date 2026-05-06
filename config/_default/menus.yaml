@@ -5,12 +5,6 @@ main:
   - name: Papers
     url: /#papers
     weight: 20
-  - name: Projects
-    url: /#projects
-    weight: 30
-  - name: Blog
-    url: /#news
-    weight: 40
   - name: CV
     url: experience/
-    weight: 50
+    weight: 30
