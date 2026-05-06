@@ -1,0 +1,387 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "Youcheng Zong" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Bio" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "Publications" [ref=e12] [cursor=pointer]:
+            - /url: /#papers
+        - listitem [ref=e13]:
+          - link "CV" [ref=e14] [cursor=pointer]:
+            - /url: /uploads/cv.pdf
+      - generic [ref=e15]:
+        - button "toggle search" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+        - button "appearance" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+  - generic [ref=e23]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img "Youcheng Zong" [ref=e35]
+          - generic [ref=e36]: 🎓
+        - generic [ref=e37]:
+          - heading "Youcheng Zong Yǒuchéng Zōng" [level=1] [ref=e38]:
+            - generic [ref=e39]:
+              - text: Youcheng Zong
+              - generic [ref=e40]: Yǒuchéng Zōng
+          - paragraph [ref=e41]: (he/him)
+          - paragraph [ref=e42]: PhD Student in Control Science and Engineering
+          - paragraph [ref=e43]:
+            - link "Northeastern University" [ref=e44] [cursor=pointer]:
+              - /url: https://www.neu.edu.cn/
+        - generic [ref=e45]:
+          - link "hero/at-symbol" [ref=e46] [cursor=pointer]:
+            - /url: mailto:zongyc@mails.neu.edu.cn
+            - img [ref=e47]
+          - link "brands/github" [ref=e49] [cursor=pointer]:
+            - /url: https://github.com/mituan-ai
+            - img [ref=e50]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - heading "About" [level=2] [ref=e58]
+          - generic [ref=e60]: I am a PhD student in Control Science and Engineering at Northeastern University, China. My research focuses on large language models for complex industrial processes, industrial time-series modeling, and process industry intelligence.
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - heading "Education" [level=3] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]:
+                - paragraph [ref=e74]: PhD student, Control Science and Engineering
+                - paragraph [ref=e75]: 2024-09-01
+                - paragraph [ref=e76]: Northeastern University
+            - generic [ref=e78]:
+              - img [ref=e80]
+              - generic [ref=e82]:
+                - paragraph [ref=e83]: Bachelor of Engineering in Automation
+                - paragraph [ref=e84]:
+                  - text: 2017-09-01
+                  - text: 2021-06-30
+                - paragraph [ref=e85]: Anhui University of Technology
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - heading "Research Interests" [level=3] [ref=e91]
+          - generic [ref=e92]:
+            - generic [ref=e93]: Industrial LLMs
+            - generic [ref=e94]: Intelligent metallurgy
+            - generic [ref=e95]: Process industry intelligence
+            - generic [ref=e96]: Industrial time-series analysis
+            - generic [ref=e97]: Human-AI collaborative decision support
+    - generic [ref=e100]:
+      - generic [ref=e101]: Research
+      - generic [ref=e102]: I work on data-driven and LLM-assisted intelligence for complex industrial processes, with a particular focus on metallurgy, process decision support, adaptive prediction, and industrial time-series modeling.
+    - generic [ref=e103]:
+      - generic [ref=e106]: Selected Publications
+      - generic [ref=e109]:
+        - 'article "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy" [ref=e110]':
+          - generic [ref=e111]:
+            - 'link "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy featured image"':
+              - /url: /publications/zong-2026-llm/
+              - 'img "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy featured image" [ref=e112] [cursor=pointer]'
+          - generic [ref=e113]:
+            - link "Industrial LLMs" [ref=e115] [cursor=pointer]:
+              - /url: /tags/industrial-llms/
+              - generic [ref=e116]: Industrial LLMs
+            - 'heading "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy" [level=3] [ref=e117]':
+              - 'link "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy" [ref=e118] [cursor=pointer]':
+                - /url: /publications/zong-2026-llm/
+            - paragraph [ref=e119]: First-author journal article on LLM-driven human-AI collaborative decision support for complex metallurgical processes.
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - img "avatar" [ref=e124]
+                  - generic [ref=e125]: Youcheng Zong
+                - generic [ref=e126]: •
+                - time [ref=e127]: Apr 1, 2026
+                - generic [ref=e128]: •
+                - generic [ref=e129]: 1 min read
+              - link "Read more" [ref=e131] [cursor=pointer]:
+                - /url: /publications/zong-2026-llm/
+                - generic [ref=e132]: Read more
+                - img [ref=e133]
+        - article "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating" [ref=e135]:
+          - generic [ref=e136]:
+            - link "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating featured image":
+              - /url: /publications/zong-2025-meta/
+              - img "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating featured image" [ref=e137] [cursor=pointer]
+          - generic [ref=e138]:
+            - link "Industrial Time Series" [ref=e140] [cursor=pointer]:
+              - /url: /tags/industrial-time-series/
+              - generic [ref=e141]: Industrial Time Series
+            - heading "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating" [level=3] [ref=e142]:
+              - link "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating" [ref=e143] [cursor=pointer]:
+                - /url: /publications/zong-2025-meta/
+            - paragraph [ref=e144]: First-author journal article on adaptive temperature trend prediction in variable ladle preheating.
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - img "avatar" [ref=e149]
+                  - generic [ref=e150]: Youcheng Zong
+                - generic [ref=e151]: •
+                - time [ref=e152]: Dec 1, 2025
+                - generic [ref=e153]: •
+                - generic [ref=e154]: 1 min read
+              - link "Read more" [ref=e156] [cursor=pointer]:
+                - /url: /publications/zong-2025-meta/
+                - generic [ref=e157]: Read more
+                - img [ref=e158]
+        - article "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes" [ref=e160]:
+          - generic [ref=e161]:
+            - link "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes featured image":
+              - /url: /publications/zong-2025-hybrid/
+              - img "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes featured image" [ref=e162] [cursor=pointer]
+          - generic [ref=e163]:
+            - link "Manufacturing Processes" [ref=e165] [cursor=pointer]:
+              - /url: /tags/manufacturing-processes/
+              - generic [ref=e166]: Manufacturing Processes
+            - heading "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes" [level=3] [ref=e167]:
+              - link "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes" [ref=e168] [cursor=pointer]:
+                - /url: /publications/zong-2025-hybrid/
+            - paragraph [ref=e169]: First-author journal article on random-forest-based pressure prediction in manufacturing processes.
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - generic [ref=e172]:
+                  - img "avatar" [ref=e174]
+                  - generic [ref=e175]: Youcheng Zong
+                - generic [ref=e176]: •
+                - time [ref=e177]: Feb 1, 2025
+                - generic [ref=e178]: •
+                - generic [ref=e179]: 1 min read
+              - link "Read more" [ref=e181] [cursor=pointer]:
+                - /url: /publications/zong-2025-hybrid/
+                - generic [ref=e182]: Read more
+                - img [ref=e183]
+        - 'article "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa" [ref=e185]':
+          - generic [ref=e186]:
+            - 'link "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa featured image"':
+              - /url: /publications/su-2025-zeroshot/
+              - 'img "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa featured image" [ref=e187] [cursor=pointer]'
+          - generic [ref=e188]:
+            - link "Medical Imaging" [ref=e190] [cursor=pointer]:
+              - /url: /tags/medical-imaging/
+              - generic [ref=e191]: Medical Imaging
+            - 'heading "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa" [level=3] [ref=e192]':
+              - 'link "Zero-Shot Capillary Segmentation in Dermoscopy Images via SAM2: A Case Study on Oral Mucosa" [ref=e193] [cursor=pointer]':
+                - /url: /publications/su-2025-zeroshot/
+            - paragraph
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - img [ref=e199]
+                  - generic [ref=e201]: weilan-su
+                - generic [ref=e202]: •
+                - time [ref=e203]: Jan 1, 2025
+                - generic [ref=e204]: •
+                - generic [ref=e205]: 1 min read
+              - link "Read more" [ref=e207] [cursor=pointer]:
+                - /url: /publications/su-2025-zeroshot/
+                - generic [ref=e208]: Read more
+                - img [ref=e209]
+        - article "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier" [ref=e211]:
+          - generic [ref=e212]:
+            - link "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier featured image":
+              - /url: /publications/zong-2023-irontapping/
+              - img "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier featured image" [ref=e213] [cursor=pointer]
+          - generic [ref=e214]:
+            - link "Blast Furnace" [ref=e216] [cursor=pointer]:
+              - /url: /tags/blast-furnace/
+              - generic [ref=e217]: Blast Furnace
+            - heading "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier" [level=3] [ref=e218]:
+              - link "Iron-Tapping State Recognition of Blast Furnace Based on Bi-GRU Composite Model and Post-Processing Classifier" [ref=e219] [cursor=pointer]:
+                - /url: /publications/zong-2023-irontapping/
+            - paragraph [ref=e220]: First-author journal article on blast furnace iron-tapping state recognition.
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - img "avatar" [ref=e225]
+                  - generic [ref=e226]: Youcheng Zong
+                - generic [ref=e227]: •
+                - time [ref=e228]: Sep 1, 2023
+                - generic [ref=e229]: •
+                - generic [ref=e230]: 1 min read
+              - link "Read more" [ref=e232] [cursor=pointer]:
+                - /url: /publications/zong-2023-irontapping/
+                - generic [ref=e233]: Read more
+                - img [ref=e234]
+    - generic [ref=e236]:
+      - generic [ref=e239]: Publications
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - link "Youcheng Zong" [ref=e246] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Runda Jia" [ref=e248] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Kang Li" [ref=e250] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Dazhan Xue" [ref=e252] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Liqiang Zhang" [ref=e254] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Dakuo He" [ref=e256] [cursor=pointer]:
+              - /url: ""
+          - text: (2026).
+          - 'link "LLM-Driven Human-AI Collaborative Decision Support System for Complex Industrial Processes: A Case Study in Metallurgy" [ref=e257] [cursor=pointer]':
+            - /url: /publications/zong-2026-llm/
+          - text: . Neural Networks.
+          - generic [ref=e258]:
+            - link "DOI" [ref=e259] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.neunet.2026.109055
+              - img [ref=e260]
+              - text: DOI
+            - button "Cite" [ref=e262] [cursor=pointer]:
+              - img [ref=e263]
+              - text: Cite
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - link "Youcheng Zong" [ref=e268] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Runda Jia" [ref=e270] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Shuai Wu" [ref=e272] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Liqiang Zhang" [ref=e274] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Dakuo He" [ref=e276] [cursor=pointer]:
+              - /url: ""
+          - text: (2025).
+          - link "A meta-contrastive learning hybrid model for adaptive temperature trend prediction in variable ladle preheating" [ref=e277] [cursor=pointer]:
+            - /url: /publications/zong-2025-meta/
+          - text: . EAAI.
+          - generic [ref=e278]:
+            - link "DOI" [ref=e279] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.engappai.2025.112750
+              - img [ref=e280]
+              - text: DOI
+            - button "Cite" [ref=e282] [cursor=pointer]:
+              - img [ref=e283]
+              - text: Cite
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - link "Yi Nian" [ref=e288] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Chaojie Zhang" [ref=e290] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Xinyu Tang" [ref=e292] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Youcheng Zong" [ref=e294] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Jiale Li" [ref=e296] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Liqiang Zhang" [ref=e298] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Yingxue Wang" [ref=e300] [cursor=pointer]:
+              - /url: ""
+          - text: (2025).
+          - link "XGBoost and CNN-based prediction of external forces and stress-strain during solidification reduction in casting" [ref=e301] [cursor=pointer]:
+            - /url: /publications/nian-2025-xgboost/
+          - text: . PNSMI.
+          - generic [ref=e302]:
+            - link "DOI" [ref=e303] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.pnsc.2025.06.010
+              - img [ref=e304]
+              - text: DOI
+            - button "Cite" [ref=e306] [cursor=pointer]:
+              - img [ref=e307]
+              - text: Cite
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - link "Yi Nian" [ref=e312] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Xinyu Tang" [ref=e314] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Youcheng Zong" [ref=e316] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Shaowei Hu" [ref=e318] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Chaojie Zhang" [ref=e320] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Haichuan Wang" [ref=e322] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Liqiang Zhang" [ref=e324] [cursor=pointer]:
+              - /url: ""
+          - text: (2025).
+          - link "Investigation of the Mechanism of Central Crack Formation During the Solidification and Reduction Process of GCr15 Bearing Steel" [ref=e325] [cursor=pointer]:
+            - /url: /publications/nian-2025-central/
+          - text: . MMTB.
+          - generic [ref=e326]:
+            - link "DOI" [ref=e327] [cursor=pointer]:
+              - /url: https://doi.org/10.1007/s11663-025-03599-4
+              - img [ref=e328]
+              - text: DOI
+            - button "Cite" [ref=e330] [cursor=pointer]:
+              - img [ref=e331]
+              - text: Cite
+        - generic [ref=e333]:
+          - generic [ref=e334]:
+            - link "Youcheng Zong" [ref=e336] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Yi Nian" [ref=e338] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Chaojie Zhang" [ref=e340] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Xinyu Tang" [ref=e342] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Lin Wang" [ref=e344] [cursor=pointer]:
+              - /url: ""
+            - text: ","
+            - link "Liqiang Zhang" [ref=e346] [cursor=pointer]:
+              - /url: ""
+          - text: (2025).
+          - link "Hybrid Grid Search and Bayesian optimization-based random forest regression for predicting material compression pressure in manufacturing processes" [ref=e347] [cursor=pointer]:
+            - /url: /publications/zong-2025-hybrid/
+          - text: . EAAI.
+          - generic [ref=e348]:
+            - link "DOI" [ref=e349] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.engappai.2024.109580
+              - img [ref=e350]
+              - text: DOI
+            - button "Cite" [ref=e352] [cursor=pointer]:
+              - img [ref=e353]
+              - text: Cite
+      - link "See all publications" [ref=e357] [cursor=pointer]:
+        - /url: /publications/
+        - generic [ref=e358]: See all publications
+  - contentinfo [ref=e360]:
+    - paragraph [ref=e361]: © 2026 Youcheng Zong
+    - paragraph [ref=e362]:
+      - text: Made with
+      - link "Hugo Blox Kit" [ref=e363] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Build your site →" [ref=e364] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv
