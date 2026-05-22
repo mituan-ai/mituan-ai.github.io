@@ -12,7 +12,7 @@
             - /url: /#papers
         - listitem [ref=e13]:
           - link "CV" [ref=e14] [cursor=pointer]:
-            - /url: /uploads/cv.pdf
+            - /url: /uploads/CV.pdf
       - generic [ref=e15]:
         - button "toggle search" [ref=e16] [cursor=pointer]:
           - img [ref=e17]
