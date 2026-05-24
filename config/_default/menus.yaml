@@ -1,10 +1,13 @@
 main:
-  - name: Bio
+  - name: About
     url: /
     weight: 10
+  - name: Research
+    url: /#research
+    weight: 20
   - name: Publications
     url: /#papers
-    weight: 20
+    weight: 30
   - name: CV
     url: /uploads/CV.pdf
-    weight: 30
+    weight: 40

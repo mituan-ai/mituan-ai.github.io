@@ -26,12 +26,17 @@ hugoblox:
     align: center
     search: true
     theme_toggle: true
-    theme_picker: false
+    theme_picker: true
+    cta:
+      enable: false
   footer:
     style: minimal
     language_switcher: false
   copyright:
     notice: © {year} {name}
+    license:
+      share_alike: false
+      type: cc
   content:
     math:
       enable: false

@@ -50,6 +50,8 @@
 
 不要直接维护 `public/uploads/CV.pdf`。该文件应由 Hugo 在构建时从 `static/uploads/CV.pdf` 自动复制生成。
 
+每次 git 提交前，应先用 `rsync` 从 `0简历/out/CV.pdf` 同步更新 `static/uploads/CV.pdf`，确保网站发布的是最新 CV。
+
 ## 首页内容规则
 
 不要在首页展示空的占位区块。如果 Blog、Projects、Events 或类似栏目暂时没有真实内容，应从首页和导航栏隐藏，而不是展示 “coming later” 或模板占位文案。
