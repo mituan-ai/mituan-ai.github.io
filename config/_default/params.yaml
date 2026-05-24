@@ -29,6 +29,7 @@ hugoblox:
     theme_picker: true
     cta:
       enable: false
+    language_switcher: false
   footer:
     style: minimal
     language_switcher: false

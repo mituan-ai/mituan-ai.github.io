@@ -7,11 +7,9 @@ sections:
   - block: "resume-biography-3"
     content:
       username: "youcheng-zong"
-      text: |
+      text: |-
         I am a PhD student in Control Science and Engineering at Northeastern
-        University, China. My research focuses on large language models for
-        complex industrial processes, industrial time-series modeling, and
-        process industry intelligence.
+        University, China. My research focuses on AI and large-model applications in complex industrial scenarios, with interests in industrial process modeling, multimodal perception, analysis, and decision support. I am strong at abstracting tasks from real problems, connecting data with models, and turning research results into verifiable, deployable systems.
       headings:
         about: "About"
         education: "Education"
@@ -62,7 +60,7 @@ sections:
       filters:
         folders:
           - "publications"
-        exclude_featured: false
+        featured_only: true
       count: 5
       sort_by: "Date"
       archive:
