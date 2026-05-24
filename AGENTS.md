@@ -38,19 +38,13 @@
 
 如果看到 Ownable、Decap、Netlify CMS、Quarto CMS 等相关内容，不要默认认为它们是网站运行时依赖。应先确认它们是否只是编辑器便利工具，再决定是否保留或修改。
 
-## CV 和静态文件规则
+## CV 更新
 
-公开 CV 的标准源文件位置是：
+每次 git 提交前，应先用以下命令从 `0简历/out/CV.pdf` 同步更新网站公开 CV，确保网站发布的是最新版本：
 
-`static/uploads/CV.pdf`
-
-导航栏里的 CV 链接应直接指向：
-
-`/uploads/CV.pdf`
-
-不要直接维护 `public/uploads/CV.pdf`。该文件应由 Hugo 在构建时从 `static/uploads/CV.pdf` 自动复制生成。
-
-每次 git 提交前，应先用 `rsync` 从 `0简历/out/CV.pdf` 同步更新 `static/uploads/CV.pdf`，确保网站发布的是最新 CV。
+```bash
+rsync -av /home/zongyoucheng/Code/0LaTeX/0简历/out/CV.pdf static/cv.pdf
+```
 
 ## 首页内容规则
 

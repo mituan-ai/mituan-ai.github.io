@@ -9,5 +9,5 @@ main:
     url: /#papers
     weight: 30
   - name: CV
-    url: /CV.pdf
+    url: /cv.pdf
     weight: 40
