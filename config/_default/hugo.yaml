@@ -7,6 +7,8 @@
 title: Youcheng Zong
 # Website URL
 baseURL: 'https://mituan-ai.github.io/'
+# Include publications whose official issue date is in the future.
+buildFuture: true
 
 ############################
 ## LANGUAGE
