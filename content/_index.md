@@ -40,6 +40,15 @@ sections:
     ce: "section-7fbe6595"
     id: "research"
     As: "section-f89358aa"
+  - block: "resume-experience"
+    content:
+      username: "youcheng-zong"
+    design:
+      date_format: "Jan 2006"
+      is_education_first: false
+    ce: "section-experience"
+    id: "experience"
+    As: "section-experience"
   - block: "collection"
     content:
       title: "Selected Publications"

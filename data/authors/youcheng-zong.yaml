@@ -53,7 +53,52 @@ education:
     start: "2017-09"
     end: "2021-06"
     summary: "School of Electrical and Information Engineering.\n"
-experience: []
+experience:
+  - role: "Project Lead, Multimodal LLM Virtual Doctor for Oral Mucosal Dermoscopy"
+    org: "Xiangya Second Hospital"
+    start: "2026-02-01"
+    end: ""
+    summary: "Built a multimodal large-model agent workflow for real clinical scenarios. The workflow integrates dermoscopy images, patient reports, and medical knowledge to support oral mucosal disease analysis, reasoning, and virtual-doctor-assisted diagnosis."
+    tags:
+      - "Multimodal LLMs"
+      - "Medical AI"
+      - "Agent workflows"
+  - role: "Project Lead, Digital-Twin Large Model for Thickening-Dewatering"
+    org: "Baowu Resources"
+    start: "2025-03-01"
+    end: "2026-03-01"
+    summary: "Built a production-facing thickening-dewatering digital-twin large-model workflow. The system connects field signals, condition recognition, a RAG knowledge base, Text2SQL, and tool calling for perception and decision support."
+    tags:
+      - "Industrial LLMs"
+      - "Digital twins"
+      - "RAG"
+  - role: "Project Member, National Key Research and Development Program"
+    org: "National Key R&D Program"
+    start: "2024-09-01"
+    end: "2025-12-01"
+    summary: "Developed 5G-enabled endpoint-prediction modules for mineral-processing and metallurgical processes. The modules connect industrial data access, online state estimation, and web dashboards to support process monitoring and endpoint judgment."
+    tags:
+      - "5G industrial systems"
+      - "Endpoint prediction"
+      - "Process monitoring"
+  - role: "Project Lead, LF-Furnace Visual Perception and Energy-Saving Control"
+    org: "Baowu Magang"
+    start: "2023-03-01"
+    end: "2023-06-01"
+    summary: "Delivered LF-furnace visual perception and energy-saving control for field production. The work connected site perception, networking data, model prediction, control logic, and production software."
+    tags:
+      - "Visual perception"
+      - "Energy-saving control"
+      - "Metallurgy"
+  - role: "Project Lead, Intelligent Transformation of the Iron-Tapping Process"
+    org: "Baowu Changgang Ironmaking Plant"
+    start: "2022-03-01"
+    end: "2022-12-01"
+    summary: "Built an intelligent-transformation workflow for the iron-tapping process. The workflow connected molten-iron level perception, data communication, algorithm services, and software platforms, and completed digital-twin scenario construction and deployment."
+    tags:
+      - "Ironmaking"
+      - "Digital twins"
+      - "Industrial deployment"
 skills:
   - name: "Research Areas"
     items:
