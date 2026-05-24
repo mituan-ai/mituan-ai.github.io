@@ -6,8 +6,8 @@ authors:
   - Runda Jia
   - Jian Qin
   - Ming Li
-date: "2025-01-01T00:00:00Z"
-publishDate: "2025-01-01T00:00:00Z"
+date: "2026-05-01T00:00:00Z"
+publishDate: "2026-05-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "IEEE Journal of Biomedical and Health Informatics"
 publication_short: "JBHI"

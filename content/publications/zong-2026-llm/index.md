@@ -7,8 +7,8 @@ authors:
   - Dazhan Xue
   - Liqiang Zhang
   - Dakuo He
-date: "2026-04-01T00:00:00Z"
-publishDate: "2026-04-01T00:00:00Z"
+date: "2026-10-01T00:00:00Z"
+publishDate: "2026-10-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "Neural Networks"
 publication_short: "Neural Networks"
