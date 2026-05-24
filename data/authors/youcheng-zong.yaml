@@ -11,7 +11,7 @@ name:
 status:
   icon: "🎓"
 role: "PhD Student in Control Science and Engineering"
-bio: "Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China. His research focuses on large language models for complex industrial processes, industrial time-series modeling, and process industry intelligence."
+bio: "Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China. His research focuses on AI and large-model applications in complex industrial scenarios, with interests in industrial process modeling, multimodal perception, analysis, and decision support. He is strong at abstracting tasks from real problems, connecting data with models, and turning research results into verifiable, deployable systems."
 affiliations:
   - name: "Northeastern University"
     url: "https://www.neu.edu.cn/"
@@ -22,6 +22,15 @@ links:
   - icon: "brands/github"
     url: "https://github.com/mituan-ai"
     label: "GitHub"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=wIODRkYAAAAJ"
+    label: "Google Scholar"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0008-6795-8412"
+    label: "ORCID"
+  - icon: "custom/wechat"
+    url: "/wechat.png"
+    label: "WeChat"
 interests:
   - "Industrial LLMs"
   - "Intelligent metallurgy"
