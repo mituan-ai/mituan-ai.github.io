@@ -2,3 +2,7 @@ select[onchange*="data-theme-pack"] option {
   color: var(--hb-color-header-fg);
   background: var(--hb-color-header-bg);
 }
+
+#biography .resume-biography .md\:col-span-8 > .mb-16 {
+  display: none;
+}
