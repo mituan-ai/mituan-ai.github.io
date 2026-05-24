@@ -32,11 +32,11 @@ links:
     url: "/wechat.png"
     label: "WeChat"
 interests:
-  - "Industrial LLMs"
+  - "Industrial LLM agents"
+  - "RAG and tool-augmented decision support"
+  - "Semantic time-series modeling"
   - "Intelligent metallurgy"
-  - "Process industry intelligence"
-  - "Industrial time-series analysis"
-  - "Human-AI collaborative decision support"
+  - "Multimodal medical AI"
 education:
   - degree: "PhD Candidate, Control Science and Engineering"
     institution: "Northeastern University"
@@ -102,13 +102,15 @@ experience:
 skills:
   - name: "Research Areas"
     items:
-      - label: "Industrial LLMs"
+      - label: "Industrial LLM agents"
+        level: 5
+      - label: "RAG and tool-augmented decision support"
+        level: 5
+      - label: "Semantic time-series modeling"
         level: 5
       - label: "Intelligent metallurgy"
         level: 5
-      - label: "Industrial time-series analysis"
-        level: 5
-      - label: "Process industry intelligence"
+      - label: "Multimodal medical AI"
         level: 5
 languages: []
 awards: []

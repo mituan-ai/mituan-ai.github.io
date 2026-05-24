@@ -6,7 +6,7 @@ main:
     url: /#research
     weight: 20
   - name: Publications
-    url: /#papers
+    url: /#publications
     weight: 30
   - name: CV
     url: /cv.pdf

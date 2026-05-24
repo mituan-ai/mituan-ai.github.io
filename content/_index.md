@@ -31,10 +31,19 @@ sections:
       title: "Research"
       subtitle: ""
       text: |-
-        I work on data-driven and LLM-assisted intelligence for complex
-        industrial processes, with a particular focus on metallurgy, process
-        decision support, adaptive prediction, and industrial time-series
-        modeling.
+        My research develops large-model systems for complex industrial and
+        clinical settings where decisions must be grounded in process data,
+        domain knowledge, and deployable software.
+
+        - **Industrial LLM agents and decision support.** RAG, tool calling,
+          Text2SQL, and human-in-the-loop workflows for production-facing
+          reasoning and operational decisions.
+        - **Semantic time-series modeling.** Methods that connect sensor
+          sequences, task descriptions, and process semantics for adaptive
+          prediction under changing operating conditions.
+        - **Application-grounded AI.** Metallurgical process intelligence
+          remains the main application base, with selected work extending
+          multimodal perception and reasoning to oral mucosal medical analysis.
     design:
       columns: "1"
     ce: "section-7fbe6595"
@@ -45,23 +54,10 @@ sections:
       username: "youcheng-zong"
     design:
       date_format: "Jan 2006"
-      is_education_first: false
+      is_education_first: true
     ce: "section-experience"
     id: "experience"
     As: "section-experience"
-  - block: "collection"
-    content:
-      title: "Selected Publications"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
-    design:
-      view: "article-grid"
-      columns: 3
-    ce: "section-papers"
-    id: "papers"
-    As: "section-5847d5ef"
   - block: "collection"
     content:
       title: "Publications"
@@ -81,4 +77,17 @@ sections:
     ce: "section-2dca0dee"
     id: "publications"
     As: "section-1a3c413c"
+  - block: "collection"
+    content:
+      title: "Research Highlights"
+      filters:
+        folders:
+          - "publications"
+        featured_only: true
+    design:
+      view: "article-grid"
+      columns: 3
+    ce: "section-papers"
+    id: "papers"
+    As: "section-5847d5ef"
 ---
