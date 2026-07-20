@@ -1,8 +1,39 @@
-select[onchange*="data-theme-pack"] option {
-  color: var(--hb-color-header-fg);
-  background: var(--hb-color-header-bg);
+.page-footer p:has([data-hbx="poweredby_brand"]) {
+  display: none;
 }
 
-#biography .resume-biography .md\:col-span-8 > .mb-16 {
+#education {
   display: none;
+}
+
+#biography .resume-biography .md\:col-span-8 > .mb-16 > .relative {
+  max-width: 46rem;
+}
+
+#metrics .stats-block-container > div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#metrics .stats-block-container > div > div {
+  max-width: 52rem;
+}
+
+#metrics .stats-block-container .grid {
+  gap: 1.5rem;
+}
+
+#metrics .stats-item h3 {
+  margin-bottom: 0.25rem;
+  color: color-mix(in srgb, var(--hb-color-foreground) 72%, transparent);
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+#metrics .stats-item p {
+  color: color-mix(in srgb, var(--hb-color-foreground) 58%, transparent);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
 }

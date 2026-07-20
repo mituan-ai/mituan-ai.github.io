@@ -17,13 +17,13 @@ tags:
   - Medical Imaging
   - Segmentation
   - SAM2
-featured: true
+featured: false
 links:
   - type: doi
     url: https://doi.org/10.1109/jbhi.2025.3628493
 image:
   filename: featured.jpg
-  caption: "Cover image adapted from Wikimedia Commons: Nailfold Capillaries."
+  caption: "Processing stages for zero-shot oral capillary segmentation."
   focal_point: ""
   preview_only: false
 projects: []

@@ -1,93 +1,116 @@
 ---
 title: ""
-summary: ""
-date: "2026-05-04"
+summary: "Research on LLMs for industrial systems, time-series modeling, and structure-aware visual analysis."
+date: "2026-07-19"
 type: "landing"
 sections:
   - block: "resume-biography-3"
+    id: "biography"
     content:
       username: "youcheng-zong"
       text: |-
-        I am a PhD student in Control Science and Engineering at Northeastern
-        University, China. My research focuses on AI and large-model applications in complex industrial scenarios, with interests in industrial process modeling, multimodal perception, analysis, and decision support. I am strong at abstracting tasks from real problems, connecting data with models, and turning research results into verifiable, deployable systems.
+        I am a PhD candidate in Control Science and Engineering at Northeastern
+        University, China. I develop LLM-based methods for industrial
+        forecasting, measurement correction, model adaptation, and decision
+        support. I also study structure-aware visual analysis for medical
+        imaging.
       headings:
         about: "About"
-        education: "Education"
-        interests: "Research Interests"
     design:
-      background:
-        gradient_mesh:
-          enable: true
       name:
-        size: "md"
+        size: "sm"
       avatar:
-        size: "large"
+        size: "medium"
         shape: "circle"
-    ce: "section-a8a3a0ad"
-    id: "biography"
-    As: "section-7668f1bc"
-  - block: "markdown"
-    content:
-      title: "Research"
-      subtitle: ""
-      text: |-
-        My research develops large-model systems for complex industrial and
-        clinical settings where decisions must be grounded in process data,
-        domain knowledge, and deployable software.
+      biography:
+        style: "max-width: 46rem;"
+      spacing:
+        padding: ["0", "0"]
 
-        - **Industrial LLM agents and decision support.** RAG, tool calling,
-          Text2SQL, and human-in-the-loop workflows for production-facing
-          reasoning and operational decisions.
-        - **Semantic time-series modeling.** Methods that connect sensor
-          sequences, task descriptions, and process semantics for adaptive
-          prediction under changing operating conditions.
-        - **Application-grounded AI.** Metallurgical process intelligence
-          remains the main application base, with selected work extending
-          multimodal perception and reasoning to oral mucosal medical analysis.
-    design:
-      columns: "1"
-    ce: "section-7fbe6595"
-    id: "research"
-    As: "section-f89358aa"
   - block: "resume-experience"
+    id: "education"
     content:
       username: "youcheng-zong"
     design:
       date_format: "Jan 2006"
       is_education_first: true
-    ce: "section-experience"
-    id: "experience"
-    As: "section-experience"
+
+  - block: "stats"
+    id: "metrics"
+    content:
+      items:
+        - statistic: "14"
+          description: "Publications and preprints"
+        - statistic: "110"
+          description: "Google Scholar citations"
+        - statistic: "5"
+          description: "h-index"
+        - statistic: "3"
+          description: "i10-index"
+    design:
+      layout: "minimal"
+      numbers_gradient: false
+      spacing:
+        padding: ["0", "0"]
+      background:
+        color: "color-mix(in srgb, var(--hb-color-background) 97%, var(--hb-color-foreground) 3%)"
+
+  - block: "features"
+    id: "research"
+    content:
+      title: "Research"
+      text: "My work connects LLMs, numerical time series, and visual structure under real process constraints."
+      items:
+        - name: "LLMs for industrial systems"
+          description: "Retrieval, tool use, and constrained reasoning for industrial analysis and decision support."
+          icon: "hero/cpu-chip"
+        - name: "Semantic industrial forecasting"
+          description: "Forecasting and soft sensing that connect numerical windows with variable meaning and process context."
+          icon: "hero/chart-bar-square"
+        - name: "Structure-aware visual analysis"
+          description: "Connectivity-preserving segmentation and multimodal analysis for clinical and industrial images."
+          icon: "hero/squares-plus"
+    design:
+      layout: "grid"
+
   - block: "collection"
+    id: "publications"
     content:
       title: "Publications"
-      text: ""
+      text: "Recent work across industrial intelligence, time-series modeling, and visual analysis."
       filters:
         folders:
           - "publications"
         featured_only: true
-      count: 5
+      count: 6
       sort_by: "Date"
+      order: "desc"
       archive:
         enable: true
-      order: "desc"
-    design:
-      view: "citation"
-      fill_image: true
-    ce: "section-2dca0dee"
-    id: "publications"
-    As: "section-1a3c413c"
-  - block: "collection"
-    content:
-      title: "Research Highlights"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
+        link: "/publications/"
+        text: "View all publications"
     design:
       view: "article-grid"
       columns: 3
-    ce: "section-papers"
-    id: "papers"
-    As: "section-5847d5ef"
+      fill_image: true
+      show_read_time: false
+      background:
+        color: "color-mix(in srgb, var(--hb-color-background) 94%, var(--hb-color-foreground) 6%)"
+
+  - block: "portfolio"
+    id: "projects"
+    content:
+      title: "Projects"
+      count: 4
+      filters:
+        folders:
+          - "projects"
+      archive:
+        enable: false
+    design:
+      columns: 2
+      status_badge:
+        enable: true
+      fallback_icon: "hero/beaker"
+
 ---

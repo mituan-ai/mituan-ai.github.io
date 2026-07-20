@@ -25,7 +25,7 @@ links:
     url: https://doi.org/10.1109/JSEN.2023.3300123
 image:
   filename: featured.jpg
-  caption: "Cover image adapted from Wikimedia Commons: molten iron from a blast furnace."
+  caption: "Graphical abstract of the sensing, Bi-GRU modeling, and state-classification workflow."
   focal_point: ""
   preview_only: false
 projects: []

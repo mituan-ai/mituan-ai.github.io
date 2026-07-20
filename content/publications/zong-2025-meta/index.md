@@ -12,7 +12,7 @@ publication_types: ["article-journal"]
 publication: "Engineering Applications of Artificial Intelligence"
 publication_short: "EAAI"
 abstract: ""
-summary: "First-author journal article on adaptive temperature trend prediction in variable ladle preheating."
+summary: "Meta-contrastive adaptation for multi-step temperature forecasting across variable ladle-preheating tasks."
 tags:
   - Industrial Time Series
   - Temperature Prediction
@@ -23,7 +23,7 @@ links:
     url: https://doi.org/10.1016/j.engappai.2025.112750
 image:
   filename: featured.jpg
-  caption: "Cover image adapted from Wikimedia Commons: foundry ladle."
+  caption: "Meta-contrastive learning architecture for variable-task temperature prediction."
   focal_point: ""
   preview_only: false
 projects: []

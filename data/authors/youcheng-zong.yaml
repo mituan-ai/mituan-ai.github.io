@@ -5,13 +5,10 @@ name:
   display: "Youcheng Zong"
   given: "Youcheng"
   family: "Zong"
-  alternate: "宗有成"
-  pronunciation: "Yǒuchéng Zōng"
-  pronouns: "he/him"
 status:
   icon: "🎓"
 role: "PhD Candidate"
-bio: "Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China. His research focuses on AI and large-model applications in complex industrial scenarios, with interests in industrial process modeling, multimodal perception, analysis, and decision support. He is strong at abstracting tasks from real problems, connecting data with models, and turning research results into verifiable, deployable systems."
+bio: "Youcheng Zong is a PhD candidate in Control Science and Engineering at Northeastern University, China. He develops LLM-based methods for industrial forecasting, measurement correction, model adaptation, and decision support. He also studies structure-aware visual analysis for medical imaging."
 affiliations:
   - name: "Northeastern University"
     url: "https://www.neu.edu.cn/"
@@ -31,86 +28,36 @@ links:
   - icon: "custom/wechat"
     url: "/wechat.png"
     label: "WeChat"
-interests:
-  - "Industrial LLM agents"
-  - "RAG and tool-augmented decision support"
-  - "Semantic time-series modeling"
-  - "Intelligent metallurgy"
-  - "Multimodal medical AI"
+interests: []
 education:
   - degree: "PhD Candidate, Control Science and Engineering"
     institution: "Northeastern University"
-    start: "2024-08"
+    year: "2024–present"
+    start: "2024-09"
     end: ""
-    summary: "College of Information Science and Engineering.\n"
-  - degree: "Master of Engineering"
+    summary: "College of Information Science and Engineering."
+  - degree: "M.Eng., Materials and Chemical Engineering"
     institution: "Anhui University of Technology"
+    year: "2021–2024"
     start: "2021-09"
     end: "2024-06"
-    summary: "School of Metallurgical Engineering"
-  - degree: "Bachelor of Engineering in Automation"
+    summary: "School of Metallurgical Engineering."
+  - degree: "B.Eng., Automation"
     institution: "Anhui University of Technology"
+    year: "2017–2021"
     start: "2017-09"
     end: "2021-06"
-    summary: "School of Electrical and Information Engineering.\n"
-experience:
-  - role: "Project Lead, Multimodal LLM Virtual Doctor for Oral Mucosal Dermoscopy"
-    org: "Xiangya Second Hospital"
-    start: "2026-02-01"
-    end: ""
-    summary: "Built a multimodal large-model agent workflow for real clinical scenarios. The workflow integrates dermoscopy images, patient reports, and medical knowledge to support oral mucosal disease analysis, reasoning, and virtual-doctor-assisted diagnosis."
-    tags:
-      - "Multimodal LLMs"
-      - "Medical AI"
-      - "Agent workflows"
-  - role: "Project Lead, Digital-Twin Large Model for Thickening-Dewatering"
-    org: "Baowu Resources"
-    start: "2025-03-01"
-    end: "2026-03-01"
-    summary: "Built a production-facing thickening-dewatering digital-twin large-model workflow. The system connects field signals, condition recognition, a RAG knowledge base, Text2SQL, and tool calling for perception and decision support."
-    tags:
-      - "Industrial LLMs"
-      - "Digital twins"
-      - "RAG"
-  - role: "Project Member, National Key Research and Development Program"
-    org: "National Key R&D Program"
-    start: "2024-09-01"
-    end: "2025-12-01"
-    summary: "Developed 5G-enabled endpoint-prediction modules for mineral-processing and metallurgical processes. The modules connect industrial data access, online state estimation, and web dashboards to support process monitoring and endpoint judgment."
-    tags:
-      - "5G industrial systems"
-      - "Endpoint prediction"
-      - "Process monitoring"
-  - role: "Project Lead, LF-Furnace Visual Perception and Energy-Saving Control"
-    org: "Baowu Magang"
-    start: "2023-03-01"
-    end: "2023-06-01"
-    summary: "Delivered LF-furnace visual perception and energy-saving control for field production. The work connected site perception, networking data, model prediction, control logic, and production software."
-    tags:
-      - "Visual perception"
-      - "Energy-saving control"
-      - "Metallurgy"
-  - role: "Project Lead, Intelligent Transformation of the Iron-Tapping Process"
-    org: "Baowu Changgang Ironmaking Plant"
-    start: "2022-03-01"
-    end: "2022-12-01"
-    summary: "Built an intelligent-transformation workflow for the iron-tapping process. The workflow connected molten-iron level perception, data communication, algorithm services, and software platforms, and completed digital-twin scenario construction and deployment."
-    tags:
-      - "Ironmaking"
-      - "Digital twins"
-      - "Industrial deployment"
+    summary: "School of Electrical and Information Engineering."
 skills:
   - name: "Research Areas"
     items:
-      - label: "Industrial LLM agents"
-        level: 5
-      - label: "RAG and tool-augmented decision support"
+      - label: "LLMs for industrial systems"
         level: 5
       - label: "Semantic time-series modeling"
         level: 5
       - label: "Intelligent metallurgy"
         level: 5
-      - label: "Multimodal medical AI"
+      - label: "Structure-aware visual analysis"
         level: 5
 languages: []
 awards: []

@@ -3,18 +3,27 @@ hugoblox:
   identity:
     name: Youcheng Zong
     type: person
-    tagline: PhD Student in Control Science and Engineering | Northeastern University
-    description: Youcheng Zong is a PhD student in Control Science and Engineering at Northeastern University, China.
+    tagline: PhD Candidate in Control Science and Engineering
+    description: Research on LLMs for industrial systems, time-series modeling, and structure-aware visual analysis.
+    social:
+      links:
+        - icon: hero/at-symbol
+          url: mailto:zongyc@mails.neu.edu.cn
+          label: Email
+        - icon: brands/github
+          url: https://github.com/mituan-ai
+          label: GitHub
+        - icon: academicons/google-scholar
+          url: https://scholar.google.com/citations?user=wIODRkYAAAAJ
+          label: Google Scholar
+        - icon: academicons/orcid
+          url: https://orcid.org/0009-0008-6795-8412
+          label: ORCID
   theme:
     mode: system
-    pack: dracula
-    colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+    pack: default
   typography:
-    font: sans
-    size: md
+    pack: modern
   layout:
     radius: md
     spacing: comfortable
@@ -24,14 +33,20 @@ hugoblox:
     style: navbar
     sticky: true
     align: center
+    title: Profile
+    show_logo: true
+    show_title: true
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     cta:
-      enable: false
+      enable: true
+      text: CV
+      url: /cv.pdf
     language_switcher: false
   footer:
     style: minimal
+    show_social: false
     language_switcher: false
   copyright:
     notice: © {year} {name}
@@ -44,10 +59,12 @@ hugoblox:
     toc:
       enable: true
     reading_time:
-      enable: true
+      enable: false
+    citations:
+      style: apa
   search:
     enable: true
     suggestions:
-      - "Industrial LLMs"
-      - "Metallurgy"
-      - "Time Series"
+      - "LLMs"
+      - "Time-series forecasting"
+      - "Structure-aware visual analysis"

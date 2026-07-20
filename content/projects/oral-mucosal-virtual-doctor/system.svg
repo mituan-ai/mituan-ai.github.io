@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Clinician-reviewed multimodal workflow for oral mucosal imaging</title>
+  <desc id="desc">Oral dermoscopy images, patient information, and medical knowledge are analyzed by bounded multimodal components and presented for clinician review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7ed"/><stop offset=".5" stop-color="#f8fafc"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
+    <linearGradient id="mucosa" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fecaca"/><stop offset=".55" stop-color="#fb7185"/><stop offset="1" stop-color="#be123c"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#475569"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <text x="800" y="78" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Multimodal evidence with clinician review</text>
+  <text x="800" y="118" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="20" fill="#475569">Decision support for oral mucosal dermoscopy · not autonomous diagnosis</text>
+
+  <g transform="translate(62 180)" font-family="Inter,Arial,sans-serif" filter="url(#shadow)">
+    <rect width="390" height="560" rx="28" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="58" text-anchor="middle" font-size="21" font-weight="700" fill="#475569">CLINICAL INPUTS</text>
+    <circle cx="195" cy="190" r="98" fill="url(#mucosa)" stroke="#fff1f2" stroke-width="12"/>
+    <g fill="none" stroke="#7f1d1d" stroke-width="3" opacity=".65">
+      <path d="M124 185c33-14 34 30 70 9s40 25 72 5M141 142c19 22 36-8 57 15s39-15 55 8M143 229c24-24 44 9 64-12s34 7 46-2"/>
+      <path d="M164 115c-4 42 29 47 21 84s29 43 23 72M231 123c-16 31 12 51 2 80s19 38 10 64"/>
+    </g>
+    <text x="195" y="323" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Dermoscopy image</text>
+    <rect x="62" y="370" width="266" height="70" rx="15" fill="#fff7ed" stroke="#fdba74"/>
+    <path d="M87 388h38v36H87zM94 398h24M94 407h24M94 416h18" fill="none" stroke="#c2410c" stroke-width="3"/>
+    <text x="215" y="413" text-anchor="middle" font-size="20" fill="#0f172a">Patient report</text>
+    <rect x="62" y="466" width="266" height="70" rx="15" fill="#ecfeff" stroke="#67e8f9"/>
+    <path d="M88 485h36v34H88zM97 492h18M97 501h18M97 510h18" fill="none" stroke="#0e7490" stroke-width="3"/>
+    <text x="215" y="509" text-anchor="middle" font-size="20" fill="#0f172a">Medical knowledge</text>
+  </g>
+
+  <path d="M452 460H550" stroke="#475569" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(575 180)" font-family="Inter,Arial,sans-serif" filter="url(#shadow)">
+    <rect width="450" height="560" rx="28" fill="#0f172a"/>
+    <text x="225" y="58" text-anchor="middle" font-size="21" font-weight="700" fill="#67e8f9">BOUNDED MULTIMODAL ANALYSIS</text>
+    <rect x="55" y="102" width="340" height="100" rx="20" fill="#172554" stroke="#818cf8"/>
+    <text x="225" y="145" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Image analysis</text>
+    <text x="225" y="177" text-anchor="middle" font-size="17" fill="#c7d2fe">Capillary and structural evidence</text>
+    <rect x="55" y="236" width="340" height="100" rx="20" fill="#164e63" stroke="#22d3ee"/>
+    <text x="225" y="279" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Knowledge retrieval</text>
+    <text x="225" y="311" text-anchor="middle" font-size="17" fill="#a5f3fc">Relevant sources and case context</text>
+    <rect x="55" y="370" width="340" height="100" rx="20" fill="#134e4a" stroke="#2dd4bf"/>
+    <text x="225" y="413" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Evidence synthesis</text>
+    <text x="225" y="445" text-anchor="middle" font-size="17" fill="#99f6e4">Structured findings with provenance</text>
+    <path d="M225 202v24M225 336v24" stroke="#67e8f9" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="92" y="500" width="266" height="40" rx="20" fill="#fff" fill-opacity=".08"/>
+    <text x="225" y="527" text-anchor="middle" font-size="16" fill="#cbd5e1">No autonomous final diagnosis</text>
+  </g>
+
+  <path d="M1025 460H1123" stroke="#475569" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(1148 180)" font-family="Inter,Arial,sans-serif" filter="url(#shadow)">
+    <rect width="390" height="560" rx="28" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="58" text-anchor="middle" font-size="21" font-weight="700" fill="#475569">CLINICIAN REVIEW</text>
+    <circle cx="195" cy="182" r="76" fill="#e0f2fe"/>
+    <circle cx="195" cy="157" r="28" fill="#0e7490"/>
+    <path d="M138 236c8-44 32-67 57-67s49 23 57 67" fill="#0e7490"/>
+    <path d="M246 185c32 0 52 22 52 52" fill="none" stroke="#14b8a6" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="300" cy="244" r="14" fill="none" stroke="#14b8a6" stroke-width="8"/>
+    <text x="195" y="303" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Review evidence</text>
+    <g transform="translate(54 340)">
+      <rect width="282" height="145" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+      <circle cx="36" cy="38" r="10" fill="#14b8a6"/><path d="M30 38l5 5 9-12" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="62" y="44" font-size="18" fill="#0f172a">Image findings</text>
+      <circle cx="36" cy="78" r="10" fill="#14b8a6"/><path d="M30 78l5 5 9-12" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="62" y="84" font-size="18" fill="#0f172a">Retrieved sources</text>
+      <circle cx="36" cy="118" r="10" fill="#14b8a6"/><path d="M30 118l5 5 9-12" fill="none" stroke="#fff" stroke-width="3"/>
+      <text x="62" y="124" font-size="18" fill="#0f172a">Structured report</text>
+    </g>
+    <rect x="74" y="508" width="242" height="42" rx="21" fill="#0f766e"/>
+    <text x="195" y="536" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Clinical judgment retained</text>
+  </g>
+
+  <path d="M1343 740C1250 835 360 835 250 740" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="13 10" marker-end="url(#arrow)"/>
+  <text x="800" y="850" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#0f766e">Review outcomes can refine the next evidence request</text>
+</svg>

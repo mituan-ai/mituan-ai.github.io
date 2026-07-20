@@ -18,13 +18,13 @@ tags:
   - Manufacturing Processes
   - Bayesian Optimization
   - Random Forest
-featured: true
+featured: false
 links:
   - type: doi
     url: https://doi.org/10.1016/j.engappai.2024.109580
 image:
   filename: featured.jpg
-  caption: "Cover image adapted from Wikimedia Commons: hydraulic press."
+  caption: "SHAP analysis of the optimized random-forest pressure model."
   focal_point: ""
   preview_only: false
 projects: []

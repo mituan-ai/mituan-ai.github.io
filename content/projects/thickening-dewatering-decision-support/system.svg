@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Anonymous thickening-dewatering decision-support architecture</title>
+  <desc id="desc">Field measurements and process documents feed a digital twin and controlled language-model tools for operator-reviewed decision support.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <text x="800" y="74" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">From process evidence to operator-reviewed decisions</text>
+  <text x="800" y="116" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="20" fill="#475569">Anonymous public architecture · operating values and site identifiers omitted</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="178" width="350" height="590" rx="28" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="625" y="178" width="350" height="590" rx="28" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="1180" y="178" width="350" height="590" rx="28" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  </g>
+
+  <text x="245" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#1e3a8a">PROCESS EVIDENCE</text>
+  <g font-family="Inter,Arial,sans-serif" font-size="21" fill="#0f172a">
+    <rect x="112" y="274" width="266" height="82" rx="16" fill="#eff6ff" stroke="#93c5fd"/>
+    <circle cx="153" cy="315" r="18" fill="#2563eb"/><path d="M145 315h16M153 307v16" stroke="#fff" stroke-width="3"/>
+    <text x="188" y="322">Field measurements</text>
+    <rect x="112" y="383" width="266" height="82" rx="16" fill="#ecfeff" stroke="#67e8f9"/>
+    <path d="M139 428c20-32 34 32 54 0s34 32 54 0" fill="none" stroke="#0891b2" stroke-width="4"/>
+    <text x="262" y="430">Time-series windows</text>
+    <rect x="112" y="492" width="266" height="82" rx="16" fill="#f0fdfa" stroke="#5eead4"/>
+    <path d="M143 510h42v46h-42zM151 521h26M151 531h26M151 541h18" fill="none" stroke="#0f766e" stroke-width="3"/>
+    <text x="205" y="539">Process documents</text>
+    <rect x="112" y="601" width="266" height="82" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+    <ellipse cx="158" cy="625" rx="25" ry="10" fill="#64748b"/><path d="M133 625v30c0 6 11 10 25 10s25-4 25-10v-30" fill="#94a3b8"/>
+    <text x="205" y="650">Structured records</text>
+  </g>
+
+  <text x="800" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#1e3a8a">PROCESS REPRESENTATION</text>
+  <g transform="translate(0 4)">
+    <ellipse cx="800" cy="355" rx="125" ry="42" fill="#0e7490"/>
+    <path d="M675 355v176c0 23 56 42 125 42s125-19 125-42V355" fill="url(#tank)"/>
+    <ellipse cx="800" cy="531" rx="125" ry="42" fill="#115e59"/>
+    <ellipse cx="800" cy="403" rx="111" ry="30" fill="#bae6fd" opacity=".92"/>
+    <path d="M800 285v250M735 309h130" stroke="#0f172a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M800 330l-54 95M800 330l54 95" stroke="#0f172a" stroke-width="5"/>
+  </g>
+  <text x="800" y="630" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#0f172a">Process digital twin</text>
+  <text x="800" y="668" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="20" fill="#475569">Condition recognition · state alignment</text>
+
+  <text x="1355" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">CONTROLLED REASONING</text>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <rect x="1230" y="286" width="250" height="96" rx="20" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+    <text x="1355" y="326" font-size="23" font-weight="700" fill="#312e81">Evidence retrieval</text>
+    <text x="1355" y="355" font-size="17" fill="#475569">RAG over technical sources</text>
+    <rect x="1230" y="411" width="250" height="96" rx="20" fill="#ecfeff" stroke="#22d3ee" stroke-width="2"/>
+    <text x="1355" y="451" font-size="23" font-weight="700" fill="#164e63">Data access</text>
+    <text x="1355" y="480" font-size="17" fill="#475569">Text2SQL with validation</text>
+    <rect x="1230" y="536" width="250" height="96" rx="20" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="1355" y="576" font-size="23" font-weight="700" fill="#134e4a">Tool execution</text>
+    <text x="1355" y="605" font-size="17" fill="#475569">Bounded analytical actions</text>
+    <rect x="1230" y="661" width="250" height="72" rx="36" fill="#0f172a"/>
+    <text x="1355" y="706" font-size="22" font-weight="700" fill="#fff">Operator review</text>
+  </g>
+
+  <path d="M420 470H605" stroke="#334155" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M975 470H1160" stroke="#334155" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M1355 637V648" stroke="#334155" stroke-width="4"/>
+  <path d="M1346 648L1355 659L1364 648Z" fill="#334155"/>
+  <path d="M1190 698C1080 810 520 810 410 698" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
+  <text x="800" y="838" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#0f766e">Human decisions remain grounded in measured process evidence</text>
+</svg>

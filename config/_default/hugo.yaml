@@ -28,6 +28,14 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  - target:
+      path: /publications/**
+      kind: page
+    reading_time: false
+  - target:
+      path: /projects/**
+      kind: page
+    reading_time: false
 
 ############################
 ## ADVANCED
