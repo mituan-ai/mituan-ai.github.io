@@ -39,7 +39,7 @@ sections:
     id: "metrics"
     content:
       items:
-        - statistic: "14"
+        - statistic: "15"
           description: "Publications and preprints"
         - statistic: "110"
           description: "Google Scholar citations"
